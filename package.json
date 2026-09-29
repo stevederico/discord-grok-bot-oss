@@ -1,0 +1,31 @@
+{
+  "name": "@stevederico/discord-grok-bot",
+  "version": "0.1.0",
+  "description": "Discord connector for Grok Build CLI and Grok Bot: MCP read/send plus an optional mention bot.",
+  "type": "module",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "bot": "node bot/index.js",
+    "test": "node --test server/*.test.js bot/*.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "discord",
+    "mcp",
+    "grok",
+    "grok-bot",
+    "connector"
+  ],
+  "author": "Steve Derico",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevederico/discord-grok-bot-oss.git"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.30.0"
+  }
+}

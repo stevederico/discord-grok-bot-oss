@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "discord": {
+      "command": "${PLUGIN_ROOT}/server/run.sh",
+      "env": {
+        "DISCORD_BOT_TOKEN": "${DISCORD_BOT_TOKEN}"
+      }
+    }
+  }
+}

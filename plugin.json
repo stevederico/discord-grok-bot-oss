@@ -1,0 +1,11 @@
+{
+  "name": "discord-grok-bot",
+  "version": "0.1.0",
+  "description": "Read (and optionally send) Discord messages from Grok Build CLI and Grok Bot via a bot token.",
+  "author": {
+    "name": "Steve Derico"
+  },
+  "homepage": "https://github.com/stevederico/discord-grok-bot-oss",
+  "keywords": ["discord", "mcp", "grok", "grok-bot", "connector"],
+  "license": "MIT"
+}
